@@ -206,11 +206,13 @@ List accounts:
 himalaya account list
 ```
 
-Use a specific account:
+Use a specific account (Himalaya v1.1.0):
 
 ```bash
-himalaya --account work envelope list
+himalaya envelope list -a work
 ```
+
+> Note: `--account` is **not** a global flag in v1.1.0; it is provided per subcommand (e.g. `envelope list -a`, `message read -a`, etc.).
 
 ## Attachments
 

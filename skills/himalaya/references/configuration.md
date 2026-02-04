@@ -133,7 +133,7 @@ email = "work@company.com"
 Switch accounts with `--account`:
 
 ```bash
-himalaya --account work envelope list
+himalaya envelope list -a work
 ```
 
 ## Notmuch Backend (local mail)

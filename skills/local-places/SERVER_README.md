@@ -97,5 +97,5 @@ uv run pytest
 Generate the OpenAPI schema:
 
 ```bash
-uv run python scripts/generate_openapi.py
+uv run python3 scripts/generate_openapi.py
 ```
